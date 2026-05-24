@@ -1,0 +1,101 @@
+# ==========================================
+# Python .gitignore
+# Contact Management System Project
+# ==========================================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary files
+tempCodeRunnerFile.py
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# SQLite database files
+*.sqlite3
+
+# Backup files
+*.bak
+
+# JSON backup files
+backup_*.json
+
+# CSV exports
+exports/*.csv
+
+# Ignore secrets
+.streamlit/secrets.toml
+
+# Ignore local environment config
+local_settings.py
+
+# Ignore runtime files
+*.pid
+*.seed
+
+# Ignore compiled extensions
+*.so
+
+# Ignore test outputs
+test_output.txt
+
+# Ignore generated files
+results_sample.txt
+
+# Ignore OS generated files
+desktop.ini
+
+# Ignore package manager files
+pip-log.txt
+pip-delete-this-directory.txt
